@@ -1,0 +1,10 @@
+x = float(input("Digite um valor:"))
+
+#Reajuste em 5%
+Reajuste_1 = x * 0.05
+#y = float
+y = x * 0.05
+
+Reajuste_2 = x + y
+
+print(f"O reajuste de 5% de {x} é: {Reajuste_2}")

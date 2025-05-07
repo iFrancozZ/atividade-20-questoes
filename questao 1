@@ -1,0 +1,9 @@
+A = float(input("Atriubua um valor para A:"))
+B = float(input("Atriubua um valor para B:"))
+C = float(input("Atriubua um valor para C:"))
+
+Soma_A_B = A+B 
+if A+B>C:
+ print("C é menor que A+B")
+else:
+ print("C é maior que A+B")

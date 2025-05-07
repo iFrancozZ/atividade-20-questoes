@@ -1,0 +1,10 @@
+salario_minimo= 1518
+
+usuario = (input("Digite seu nome:"))
+
+Salario_usuario = "Salario" + usuario
+Salario_usuario = float(input("Digite o valor do seu salario:"))
+
+money_conta = Salario_usuario/ salario_minimo
+
+print(f"O usuário{usuario} recebe aproximadamente: {money_conta:.2f} salários mínimos.")

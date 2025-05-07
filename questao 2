@@ -1,0 +1,16 @@
+numero = float(input("Digite um numero"))
+
+if numero % 2 == 0:
+ impar_ou_par = "par"
+else:
+ impar_ou_par = "ímpar"
+
+ if numero > 0:
+   sinal = "Poditivo"
+ elif numero < 0:
+  sinal = "Negativo"
+ else:
+   sinal = "Zero"
+
+print(f"O número {numero} é {impar_ou_par} e {sinal}.")
+#ta dando erro na linha 15, dizendo que o {sinal} nao foi definido, n sei qual o problema

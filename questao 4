@@ -1,0 +1,6 @@
+x = int(input("Digite um valor numerico para X:"))
+
+sucessor = x+1
+antecessor = x -1
+
+print(f"O Antecessor de {x} é: {antecessor} e seu Sucessor é {sucessor}")
